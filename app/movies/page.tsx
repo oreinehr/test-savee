@@ -1,5 +1,5 @@
 'use client'
-
+import React from "react"
 import { useState, useEffect } from 'react'
 import { Header } from "../components/header"
 import { MovieCard } from "../components/MovieCard"

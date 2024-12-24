@@ -1,10 +1,8 @@
 'use client';
-import React from 'react';
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Film, Clock } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
-import Img from '../../../top-movies/public/logo.png';
 import { ThemeToggle } from './ThemeToggle';
 import useScrollDirection from './useScrollDirection';
 
@@ -22,13 +20,11 @@ export function Header() {
 
   return (
     <div
-      className={`bg-transparent fixed top-0 left-0 w-full h-16 flex items-center justify-between px-6 z-50 transition-transform duration-300 ${
-        isVisible ? 'translate-y-0' : '-translate-y-full'
-      }`}
+      className={`bg-transparent fixed top-0 left-0 w-full h-16 flex items-center justify-between px-6 z-50 transition-transform duration-300 ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}
     >
       <Link href="/" className="text-primary">
         <Image
-          src={Img}
+          src="/logo.png"  // Reference image in the public folder
           alt="Logo"
           width={120}
           height={100}
