@@ -15,7 +15,7 @@ git clone https://github.com/oreinehr/test-savee
 
 2. Go to the project folder
 ```bash
-cd top-movies
+cd test-savee
 ```
 
 3. Install dependencies
