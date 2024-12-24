@@ -1,10 +1,8 @@
 # Top Movies List (Savee)
 
-This is an test project for showcasing proficiency in web development. It's a Next.js application that renders a list of top movies using any available free API. It utilizes TailwindCSS for styling, GraphQL for fetching data from the API, and Jest for testing.
+ - Demonstration video: [Demo-Video](https://drive.google.com/file/d/1hkNqlAX50MvdNX1KSbRIf8dtPsqIKlT3/view?usp=sharing)
+ - Demo app: [Demo-App](https://test-savee-git-main-guilherme-reinehrs-projects.vercel.app/)
 
- - Demonstration video: [Demo-Video](https://drive.google.com/file/d/1QVPJOqRf_vANeiBDo6s1UVNxFcwr6R2n/view?usp=sharing)
- - Demo app: [Demo-App](https://assessment-savee-app.vercel.app)
- - Trello: [Trello-App](https://trello.com/invite/b/Riga7PiT/ATTIff5a4b4526b639daa06aa6950ec1a0829BF2DDC7/assessment-savee)
 
 ## 🖥️ Installation
 
@@ -12,14 +10,12 @@ This is an test project for showcasing proficiency in web development. It's a Ne
 
 1. Clone this repo
 ```bash
-git clone https://github.com/WendelGustavo/assessment-savee.git
+git clone https://github.com/oreinehr/test-savee
 ```
 
 2. Go to the project folder
 ```bash
-cd assessment-savee
-and
-cd assessment-savee
+cd top-movies
 ```
 
 3. Install dependencies
@@ -32,27 +28,6 @@ pnpm install
 pnpm run dev
 ```
 
-### Running the API
-1. Running a new Terminal
-
-2. Go to the API folder
-
-```bash
-cd assessment-savee
-and
-cd api
-```
-
-3. Install dependencies
-```bash
-pnpm install
-```
-
-4. Run start
-```bash
-pnpm run dev
-```
-
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
@@ -60,7 +35,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 1. With the api or application folder open, run the tests.
 ```bash
-pnpm run test
+pnpm test
 ```
 
 Tech requirements
