@@ -33,7 +33,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ### Running the testes
 
-1. With the api or application folder open, run the tests.
+1. to run the test use:
 ```bash
 pnpm test
 ```
