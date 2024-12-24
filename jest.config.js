@@ -1,9 +1,8 @@
 module.exports = {
-    testEnvironment: 'jsdom',
-    setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
-    moduleFileExtensions: ['js', 'jsx', 'ts', 'tsx'],
-    transform: {
-      '^.+\\.(ts|tsx)$': 'ts-jest',
-    },
-  };
-  
+  setupFilesAfterEnv: ['<rootDir>/setupTests.js'],
+  preset: 'ts-jest/presets/default-esm' ,
+  transform: {
+    '^.+\\.[t|j]sx?$': 'babel-jest', // Handles both .js and .ts files
+  },
+  testEnvironment: 'jsdom', 
+};

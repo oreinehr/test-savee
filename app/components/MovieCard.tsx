@@ -1,15 +1,8 @@
+import React from "react"
 import Image from "next/image"
 import { Star, Clock, Check } from 'lucide-react'
 import { useWatchlist } from "../components/WatchList"
-
-interface Movie {
-  id: number
-  title: string
-  poster_path: string
-  vote_average: number
-  release_date: string
-}
-
+  import { Movie } from "../types" 
 interface MovieCardProps {
   movie: Movie
   onMovieClick: (movie: Movie) => void

@@ -1,5 +1,5 @@
 'use client';
-
+import React from 'react';
 import { useState, useEffect } from 'react';
 import { Film, Clock } from 'lucide-react';
 import Link from 'next/link';
