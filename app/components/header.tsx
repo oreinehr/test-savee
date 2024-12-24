@@ -23,13 +23,13 @@ export function Header() {
       className={`bg-transparent fixed top-0 left-0 w-full h-16 flex items-center justify-between px-6 z-50 transition-transform duration-300 ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}
     >
       <Link href="/" className="text-primary">
-        <Image
-          src="/logo.png"  // Reference image in the public folder
-          alt="Logo"
-          width={120}
-          height={100}
-          className="w-32 h-32 object-contain"
-        />
+          <Image
+            src="/logo.png"  
+            alt="Logo"
+            width={120}
+            height={100}
+            className="w-32 h-32 object-contain"
+          />
       </Link>
 
       <nav className="flex items-center space-x-6">

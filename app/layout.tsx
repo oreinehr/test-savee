@@ -9,6 +9,9 @@ import { WatchlistProvider } from "./components/WatchList"
 export const metadata: Metadata = {
   title: "Savee Movies",
   description: "Your favorite movies in one place",
+  icons: {
+    icon: '/OIP.png', 
+  },
 }
 
 export default function RootLayout({
